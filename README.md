@@ -10,7 +10,7 @@
 
 This project is a web application for a fitness center that will speed up customer record keeping. Developed server part, client part and admin panel.
 
-![](https://github.com/kate-podoliak/befit/blob/main/befit-demo.gif)
+![](demo-befit.gif)
 
 ## Technologies
 Project is created with:
