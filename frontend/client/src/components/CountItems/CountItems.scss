@@ -1,0 +1,47 @@
+$yellow: #FFF200;
+$black: #000000;
+$white: #FFFFFF;
+
+.count-items {
+  background-color: $black;
+  color: $yellow;
+
+  .count-items__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    .count-items__item {
+
+      p {
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .item__number {
+        font-weight: bolder;
+        font-size: 36px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .count-items__row {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding: 40px 0;
+      .count-items__item {
+
+        p {
+          margin-bottom: 0px;
+          text-align: center;
+        }
+
+        .item__number {
+          font-weight: bolder;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

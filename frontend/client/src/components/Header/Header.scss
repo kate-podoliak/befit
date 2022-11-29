@@ -1,0 +1,82 @@
+$yellow: #FFF200;
+$black: #000000;
+$white: #FFFFFF;
+
+.header__row {
+  background-color: $black;
+  z-index: 3;
+
+  .header__logo {
+    width: 20%;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .header__toggle:focus {
+    box-shadow: none;
+  }
+
+  .header__body {
+    .header__menu {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+
+      a {
+        text-decoration: none;
+        color: $yellow;
+        font-weight: bold;
+      }
+
+      a:hover {
+        color: $white;
+      }
+    }
+
+    .header__contacts {
+      color: $white;
+      font-size: 12px;
+
+      ul.contacts__list {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+        margin-bottom: 0;
+
+        .contacts__item {
+          padding-left: 30px;
+          height: 35px;
+          display: flex;
+          justify-content: center;
+
+          span {
+            display: block;
+          }
+        }
+      }
+
+      .address {
+        background: url('../../img/marker.png') no-repeat;
+      }
+
+      .phone {
+        background: url('../../img/phone.png') no-repeat;
+      }
+
+      .time {
+        background: url('../../img/time.png') no-repeat;
+      }
+
+      .address, .phone, .time {
+        background-size: 25px;
+
+      }
+    }
+  }
+}
+
+Link {
+  text-decoration: none;
+}

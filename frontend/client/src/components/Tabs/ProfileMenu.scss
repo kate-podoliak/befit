@@ -1,0 +1,37 @@
+$yellow: #FFF200;
+$black: #000000;
+$white: #FFFFFF;
+
+.nav-item a:hover {
+  cursor: pointer;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .form__content {
+    width: 100%;
+
+    .input-box {
+      margin: 10px 0;
+    }
+
+    .input-box label {
+      color: $white;
+      padding: 5px 0;
+    }
+  }
+}
+
+.history {
+  background-color: $black;
+  color: $white;
+  width: 100%;
+  padding: 30px;
+
+  .history__header {
+
+  }
+}
